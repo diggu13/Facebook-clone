@@ -1,0 +1,134 @@
+.header-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2% 2%;
+    background-color: #ffffff;
+    position:sticky;
+    top: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.icon-search-bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #b5b2b7;
+    
+}
+.input-icon-box{
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    left: 6%;
+    bottom: 18%;
+    height: 20px;
+}
+.search-input{
+    padding: 8px;
+    border-radius:10px;
+    border: none;
+    background-color: #f0f2f5 ;
+    text-align: center;
+    outline: none;
+}
+.facebookLogo{
+    width: 50px;
+    height: 50px;
+}
+.middle-icons{
+    display: flex;
+    margin: 0 auto;
+    width: 40%;
+    align-items: center;
+    color: #bdbdbf;
+    justify-content: center;
+    gap: 10%;
+}
+.middle-icon{
+    cursor: pointer;
+    height: 25px;
+    width: 30px;
+}
+.first-icon-box{
+    position: relative;
+}
+.icon-content::after{
+    content: "2";
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 50%;
+    position:absolute;
+    left:16px;
+    top:-10px;
+
+}
+.profile-and-icons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.profile-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.end-icons{
+    height: 35px;
+    width:35px;
+    background-color: #bdbdbfa3;
+    border-radius: 50%;
+    padding:8px 7px;
+    cursor: pointer;
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+    .header-box{
+        flex-direction: row;
+        height: 100px;
+        align-items: flex-start;
+    }
+    .profile-and-icons{
+        margin: 1.6% 0;
+    }
+    .middle-icons{
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+  }
+  @media screen and (max-width: 600px){
+     .header-box{
+         height: 55px;
+     }
+    .profile-and-icons{
+        display: none;
+    }
+    .icon-search-bar{
+        width: 100%;
+        margin: 1% 0;
+        justify-content: space-between;
+    }
+    .header-box{
+        position: relative;
+    }
+    .middle-icons{
+        background-color: blue;
+        height: 45px;
+        position:fixed;
+        bottom: 0;
+        align-items: flex-end;
+        background-color: #ffffff ;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px 2px;
+    }
+  }
