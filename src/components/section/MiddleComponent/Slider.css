@@ -1,0 +1,54 @@
+.card-component{
+    display: flex;
+    gap: 6px;
+    overflow-y:hidden;
+    overflow-x: scroll;
+}
+.card-component::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    width: 150px;
+    height: 200px;
+    background-color:white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.card-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 150px;
+    height: 70%;
+}
+.story-img{
+    width: 150px;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    opacity: 85%;
+}
+.card-icon{
+    color: #1876f2;
+    width: 44px;
+    height: 45px;
+    position: absolute;
+    left: 35%;
+    bottom:18%;
+    background-color: white;
+    padding: 2px 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.add-story-p{
+    margin-top: 15%;
+    font-weight: 500;
+}
+.story-p{
+    color:white;
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+    opacity: 100%;
+}

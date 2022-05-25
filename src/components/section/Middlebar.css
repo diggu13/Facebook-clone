@@ -1,5 +1,12 @@
 .middle-container{
     width: 50%;
-    background-color: aqua;
-    text-align: center;
+}
+
+/* media query */
+
+@media screen and (max-width: 600px){
+    .middle-container{
+       width: 95%;
+       margin: 0 auto;
+    }
 }

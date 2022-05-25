@@ -1,0 +1,50 @@
+.room-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    gap: 5%;
+    margin: 2.5% 0;
+    border-radius: 8px;
+    background-color:white;
+    padding: 1.5% 2%;
+}
+.video-icon{
+    width: 25%;
+    display: flex;
+    align-items:center;
+    border: 2px solid #e8e1eb ;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 2%;
+    padding-left: 2.5%;
+    border-radius:25px;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.video-icon span{
+    color: #859de0;
+}
+.v-icon{
+    width: 25px;
+    height: 35px;
+    color: #6CDAE7;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    margin: 0 1%;
+    border-radius: 50%;
+}
+.image-slider{
+    display: flex;
+    overflow-y:hidden;
+    overflow-x: scroll;
+    gap: 2%;
+}
+
+.image-slider::-webkit-scrollbar{
+display: none;
+}
